@@ -2,7 +2,7 @@ import http from "http";
 import { WebSocketServer } from "ws";
 import { WebSocket } from "ws";
 
-const TARGET = "ws://195.26.246.18:80";
+const TARGET = "ws://168.144.43.254:80";
 
 // Servidor HTTP con respuesta 200
 const server = http.createServer((req, res) => {
